@@ -1,0 +1,10 @@
+---
+app:
+  name: babar-api
+  path: /var/www/babar-api
+  port: 3333
+  route: 'api/'
+database:
+  name: babar
+  user: babar
+  password: babar
