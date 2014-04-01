@@ -1,0 +1,30 @@
+{
+  "name": "babar-api",
+  "version": "0.0.0",
+  "description": "REST only after a good party",
+  "main": "app/main.coffee",
+  "scripts": {
+    "start": "./node_modules/.bin/coffee app/main.coffee",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:davinov/babar-api.git"
+  },
+  "keywords": [
+    "babar",
+    "bar",
+    "api",
+    "mysql",
+    "beer"
+  ],
+  "author": "David Nowinsky <david@nowinsky.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davinov/babar-api/issues"
+  },
+  "homepage": "https://github.com/davinov/babar-api",
+  "dependencies": {
+    "coffee-script": "*"
+  }
+}
