@@ -2,8 +2,9 @@
 app:
   name: babar-api
   path: /var/www/babar-api
+proxy:
   port: 3333
-  route: 'api/'
+  route: api
 database:
   name: babar
   user: babar

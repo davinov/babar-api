@@ -1,5 +1,5 @@
 ---
 dependencies:
-  - { role: nginx }
   - { role: nodejs }
   - { role: mysql }
+  - { role: nginx-proxy }
